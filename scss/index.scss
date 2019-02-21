@@ -26,9 +26,9 @@ h1, h2, h3 {
 
     &.sm-heading {
         margin-bottom: 2rem;
-        padding: 0.2rem 1rem;
+        padding: 0.2rem 1.5rem;
         font-size: 1.2rem;
-        background: lighthen($primary-color,  2);
+        background: lighten($primary-color, $amount: 2);
     }
 }
 
