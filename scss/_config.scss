@@ -1,9 +1,25 @@
-$primary-color: #444;
-$secondary-color: #1aabee;
+$primary-color: rgb(190, 190, 190);
+$secondary-color: #168eac;
 $hover-color: rgb(50, 195, 206);
 $show-home-image: true;
 $home-image: url("../image/b3.jpg");
 $background-opacity: 0.85;
+
+// set text color function
+@function set-text-color($color) {
+    @if(lightness($color) > 40) {
+        @return black;
+    }
+    @return white;
+}
+
+// set active color 
+@function set-nav-active-color($color) {
+    @if (lightness($color) > 40) {
+        @return rgb(35, 245, 192);
+    }
+    @return $secondary-color;
+}
 
 @mixin background {
     @if $show-home-image {
@@ -11,6 +27,7 @@ $background-opacity: 0.85;
             background: $home-image;
             background-attachment: fixed;
             background-size: cover;
+
             &:after {
                 content: ' ';
                 position: absolute;
@@ -26,7 +43,31 @@ $background-opacity: 0.85;
     }
 }
 
-@mixin easeOut
- {
-    transition: all 0.8s ease-in-out;
+@mixin easeOut {
+    transition: all 0.5s ease-in-out;
+}
+
+// media query mixins
+@mixin mediaSm {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin mediaMd {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mediaLg {
+    @media screen and (min-width: 769px) AND (max-width: 1170px) {
+        @content;
+    }
+}
+
+@mixin mediaXLg {
+    @media screen and (min-width: 1171px) {
+        @content;
+    }
 }
