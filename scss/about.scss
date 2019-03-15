@@ -6,9 +6,11 @@
 .about-info {
     display: grid;
     grid-gap: 30px;
-    grid-template-areas: 
-    'bioimage bio bio'
-    'job1 job2 job3';
+    grid-template-areas:
+        'bioimage bio bio'
+        'job1 job1 job1'
+        'job2 job2 job2'
+        'job3 job3 job3';
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -28,22 +30,40 @@
 .job-1 {
     grid-area: job1;
 }
+
 .job-2 {
     grid-area: job2;
 }
+
 .job-3 {
     grid-area: job3;
 }
 
 .job {
     background: lighten($primary-color, $amount: 5);
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: $secondary-color 5px solid;
+
+    h2 {
+        text-align: center;
+        color: set-text-color($primary-color);
+    }
 }
 
-h3, h5, h6 {
-    text-align: center;
-}
+.skill {
+    width: 100%;
+    /* Full width */
+    background-color: rgb(211, 46, 46);
+    /* Grey background */
+    color: white;
+    text-align: right; /* Right-align text */
 
+    
+    .java{
+        width: 90%;
+        padding-right: .5rem;
+        background-color: green;
+    }
+}
 
 @import 'mobile';

@@ -254,10 +254,14 @@ main {
   color: black; }
 
 @media screen and (min-width: 1171px) {
+  .lg-heading {
+    margin-top: -5rem; }
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+  .lg-heading {
+    margin-top: -5rem; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
@@ -289,7 +293,8 @@ main {
     font-size: 24px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    text-align: left; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
@@ -307,7 +312,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 'job1 job1 job1' 'job2 job2 job2' 'job3 job3 job3';
   grid-template-columns: repeat(3, 1fr); }
 
 .bio-image {
@@ -332,17 +337,34 @@ main {
 
 .job {
   background: #cbcbcb;
-  padding: 0.5rem;
+  padding: 1rem;
   border-bottom: #168eac 5px solid; }
+  .job h2 {
+    text-align: center;
+    color: black; }
 
-h3, h5, h6 {
-  text-align: center; }
+.skill {
+  width: 100%;
+  /* Full width */
+  background-color: #d32e2e;
+  /* Grey background */
+  color: white;
+  text-align: right;
+  /* Right-align text */ }
+  .skill .java {
+    width: 90%;
+    padding-right: .5rem;
+    background-color: green; }
 
 @media screen and (min-width: 1171px) {
+  .lg-heading {
+    margin-top: -5rem; }
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+  .lg-heading {
+    margin-top: -5rem; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
@@ -374,7 +396,8 @@ h3, h5, h6 {
     font-size: 24px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    text-align: left; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
