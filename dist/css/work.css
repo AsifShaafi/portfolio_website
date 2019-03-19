@@ -92,8 +92,7 @@
 
 .current {
   padding: 0 .8rem;
-  color: white;
-  background: black; }
+  color: white; }
 
 .menu-btn {
   position: absolute;
@@ -189,8 +188,7 @@
 
 .current {
   padding: 0 .8rem;
-  color: white;
-  background: black; }
+  color: white; }
 
 * {
   box-sizing: border-box; }
