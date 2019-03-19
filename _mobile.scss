@@ -76,6 +76,7 @@
 @include mediaSm {
     main {
         padding: 2rem;
+        text-align: justify;
         // margin-right: 1rem;
     }
     main#home h1 {
@@ -84,11 +85,7 @@
     }
 
     .lg-heading{
-        margin-top: 4vh;
-    }
-
-    .sm-heading{
-        text-align: justify;
+        margin-top: 3vh;
     }
     
     .projects {
