@@ -134,3 +134,9 @@
         transition-delay: $x * 0.1s;
     }
 }
+
+.current {
+    padding: 0 .8rem 0 .8rem;
+    color: set-text-color($primary-color);
+    background: darken($color: $secondary-color, $amount: 10);
+}

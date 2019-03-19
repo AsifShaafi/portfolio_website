@@ -91,6 +91,11 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+.current {
+  padding: 0 .8rem 0 .8rem;
+  color: black;
+  background: #10697f; }
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -183,6 +188,11 @@
 
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
+
+.current {
+  padding: 0 .8rem 0 .8rem;
+  color: black;
+  background: #10697f; }
 
 * {
   box-sizing: border-box; }
@@ -300,7 +310,8 @@ main {
 
 @media screen and (max-width: 500px) {
   main {
-    padding: 2rem; }
+    padding: 2rem;
+    text-align: justify; }
   main#home h1 {
     margin-top: 5vh;
     margin-left: 1rem; }
@@ -384,7 +395,8 @@ main {
 
 @media screen and (max-width: 500px) {
   main {
-    padding: 2rem; }
+    padding: 2rem;
+    text-align: justify; }
   main#home h1 {
     margin-top: 5vh;
     margin-left: 1rem; }
