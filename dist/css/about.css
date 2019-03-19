@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #252525;
+    background: #0e0e0e;
     list-style: none;
     transform: translate3d(50%, -100%, 0);
     transition: all 0.5s ease-in-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #3f3e3e;
+    background: #272727;
     transition: all 0.5s ease-in-out;
     transform: translate3d(-50%, 100%, 0); }
     .menu-branding.show {
@@ -65,7 +65,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #168eac; }
+      color: #e63434; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -89,10 +89,6 @@
 
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
-
-.current {
-  padding: 0 .8rem;
-  color: white; }
 
 .menu-btn {
   position: absolute;
@@ -136,14 +132,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #252525;
+    background: #0e0e0e;
     list-style: none;
     transform: translate3d(50%, -100%, 0);
     transition: all 0.5s ease-in-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #3f3e3e;
+    background: #272727;
     transition: all 0.5s ease-in-out;
     transform: translate3d(-50%, 100%, 0); }
     .menu-branding.show {
@@ -161,7 +157,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #168eac; }
+      color: #e63434; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -186,15 +182,11 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
-.current {
-  padding: 0 .8rem;
-  color: white; }
-
 * {
   box-sizing: border-box; }
 
 body {
-  background: #3f3e3e;
+  background: #272727;
   color: white;
   height: 100%;
   margin: 0;
@@ -212,7 +204,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(63, 62, 62, 0.85); }
+      background: rgba(39, 39, 39, 0.85); }
 
 h1, h2, h3 {
   margin: 0;
@@ -223,7 +215,7 @@ h1, h2, h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     font-size: 1.2rem;
-    background: rgba(68, 67, 67, 0.5); }
+    background: rgba(44, 44, 44, 0.5); }
 
 a {
   color: white;
@@ -256,7 +248,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #252525;
+  background: #0e0e0e;
   height: 60px;
   color: white; }
 
@@ -346,7 +338,7 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #4c4b4b;
+  background: #343434;
   padding: 1rem;
   border-bottom: #168eac 5px solid; }
   .job h2 {

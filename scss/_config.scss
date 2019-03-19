@@ -1,4 +1,4 @@
-$primary-color: rgb(63, 62, 62);
+$primary-color: rgb(39, 39, 39);
 $secondary-color: #168eac;
 $hover-color: rgb(242, 255, 121);
 $show-home-image: true;
@@ -18,7 +18,7 @@ $background-opacity: 0.85;
     @if (lightness($color) > 40) {
         @return rgb(35, 245, 192);
     }
-    @return $secondary-color;
+    @return rgb(230, 52, 52);
 }
 
 @mixin background {
