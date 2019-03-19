@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: black;
+    background: white;
     transition: all 0.5s ease-in-out; }
   .menu-btn.close {
     transform: rotate(-180deg); }
@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #a5a5a5;
+    background: #252525;
     list-style: none;
     transform: translate3d(50%, -100%, 0);
     transition: all 0.5s ease-in-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #bebebe;
+    background: #3f3e3e;
     transition: all 0.5s ease-in-out;
     transform: translate3d(-50%, 100%, 0); }
     .menu-branding.show {
@@ -65,15 +65,14 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #23f5c0; }
+      color: #168eac; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
     font-size: 24px;
-    text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 200;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: all 0.5s ease-in-out; }
     .menu .nav-link:hover {
@@ -92,9 +91,9 @@
   transition-delay: 0.4s; }
 
 .current {
-  padding: 0 .8rem 0 .8rem;
-  color: black;
-  background: #10697f; }
+  padding: 0 .8rem;
+  color: white;
+  background: black; }
 
 .menu-btn {
   position: absolute;
@@ -107,7 +106,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: black;
+    background: white;
     transition: all 0.5s ease-in-out; }
   .menu-btn.close {
     transform: rotate(-180deg); }
@@ -138,14 +137,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #a5a5a5;
+    background: #252525;
     list-style: none;
     transform: translate3d(50%, -100%, 0);
     transition: all 0.5s ease-in-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #bebebe;
+    background: #3f3e3e;
     transition: all 0.5s ease-in-out;
     transform: translate3d(-50%, 100%, 0); }
     .menu-branding.show {
@@ -163,15 +162,14 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #23f5c0; }
+      color: #168eac; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
     font-size: 24px;
-    text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 200;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: all 0.5s ease-in-out; }
     .menu .nav-link:hover {
@@ -190,16 +188,16 @@
   transition-delay: 0.4s; }
 
 .current {
-  padding: 0 .8rem 0 .8rem;
-  color: black;
-  background: #10697f; }
+  padding: 0 .8rem;
+  color: white;
+  background: black; }
 
 * {
   box-sizing: border-box; }
 
 body {
-  background: #bebebe;
-  color: black;
+  background: #3f3e3e;
+  color: white;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -216,7 +214,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(190, 190, 190, 0.85); }
+      background: rgba(63, 62, 62, 0.85); }
 
 h1, h2, h3 {
   margin: 0;
@@ -227,10 +225,10 @@ h1, h2, h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     font-size: 1.2rem;
-    background: rgba(195, 195, 195, 0.5); }
+    background: rgba(68, 67, 67, 0.5); }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none; }
 
 header {
@@ -260,9 +258,9 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #a5a5a5;
+  background: #252525;
   height: 60px;
-  color: black; }
+  color: white; }
 
 @media screen and (min-width: 1171px) {
   .lg-heading {
@@ -339,11 +337,11 @@ main {
     color: white; }
 
 .btn-dark {
-  background: #3f3f3f;
+  background: black;
   color: white; }
 
 .btn-light {
-  background: white; }
+  background: #bfbdbd; }
 
 .btn-item {
   position: relative;
@@ -357,7 +355,7 @@ main {
   transition: .5s ease; }
 
 .item {
-  background: #cbcbcb;
+  background: #4c4b4b;
   padding: 0.5rem;
   display: inline-block;
   width: 100%;
