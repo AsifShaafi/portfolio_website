@@ -5,6 +5,10 @@ $show-home-image: true;
 $home-image: url("../image/b3.jpg");
 $background-opacity: 0.85;
 
+// Animation 
+$color-main: #0fe4d2;
+$black: #202020;
+
 // set text color function
 @function set-text-color($color) {
     @if(lightness($color) > 40) {

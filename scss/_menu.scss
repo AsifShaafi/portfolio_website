@@ -99,6 +99,7 @@
     .nav-item {
         transform: translate3d(600px, 0, 0);
         @include easeOut;
+        margin: 0 1rem;
 
         &.show {
             // slide in from left
