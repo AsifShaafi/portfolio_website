@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
 
-        <link rel="stylesheet" href="css/animate.css">
+    <!-- scroll animation starts -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- scroll animation ends -->
+
     <link rel="stylesheet" href="css/contact.css"> <!-- changed in about.html -->
 
     <!-- changed in about.html -->
@@ -70,20 +74,20 @@
         <!-- contact box start -->
         <div class="boxes">
 
-            <div class="animated fadeInLeft">
+            <div data-aos="fade-down-right" data-aos-duration="600" data-aos-easing="ease-in-sine">
                 <span class="text-secondary">Email:</span>
                     <p>a15shaafi.209@gmail.com</p>
                     shaafi.20994@gmail.com
                     <p>shaafi.aust35@gmail.com</p>
             </div>
 
-            <div class="animated fadeInDown">
+            <div data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in-sine">
                 <span class="text-secondary">Phone:</span>
                     <p>(+880) 1521496158</p>
                     <p>(+880) 1672427288</p>
             </div>
 
-            <div class="animated fadeInRight">
+            <div data-aos="fade-up-left" data-aos-duration="600" data-aos-easing="ease-in-sine">
                 <span class="text-secondary">Address:</span>
                     <p>24/B, Topkhana Road, Dhaka-1000</p>
             </div>
@@ -95,6 +99,7 @@
 
     <footer id="main-footer">Copyright &copy; 2019</footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
